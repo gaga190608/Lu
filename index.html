@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">Lucineba</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- INTRO CINEMATOGRÁFICA -->
+<div id="intro">
+    <h1 class="fadeText">Existe amizade...</h1>
+    <h1 class="fadeText delay1">E existe encontro de almas.</h1>
+    <h1 class="fadeText delay2">Desde 2018.</h1>
+</div>
+
+<audio id="bgMusic" loop>
+    <source src="assets/audio/musica.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicToggle">🔊 Música</button>
+
+<header class="hero hidden">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1>Luciano Castagnari</h1>
+        <p class="subtitle">Feliz aniversário ❤️</p>
+        <a href="#carta" class="btn">Ler a Carta</a>
+    </div>
+</header>
+
+<section id="carta" class="section hidden">
+    <div class="letter">
+        <h2>Uma carta para você</h2>
+        <p id="typedText"></p>
+    </div>
+</section>
+
+<section class="section gallery hidden">
+    <h2>Momentos Marcantes</h2>
+    <div class="grid">
+        <img src="assets/images/foto1.jpg">
+        <img src="assets/images/foto2.jpg">
+        <img src="assets/images/foto3.jpg">
+        <img src="assets/images/foto4.jpg">
+    </div>
+</section>
+
+<section class="section videos hidden">
+    <h2>Nossa Infância</h2>
+    <div class="video-grid">
+        <video controls>
+            <source src="assets/videos/video1.mp4" type="video/mp4">
+        </video>
+        <video controls>
+            <source src="assets/videos/video2.mp4" type="video/mp4">
+        </video>
+    </div>
+</section>
+
+<footer class="hidden">
+    <p>Feito com amor ❤️</p>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
